@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D335FB3929E6FE5A00EC34A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335FB3829E6FE5A00EC34A7 /* AppDelegate.swift */; };
+		D335FB3B29E6FE5A00EC34A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335FB3A29E6FE5A00EC34A7 /* SceneDelegate.swift */; };
+		D335FB3D29E6FE5A00EC34A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335FB3C29E6FE5A00EC34A7 /* ViewController.swift */; };
+		D335FB4029E6FE5A00EC34A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D335FB3E29E6FE5A00EC34A7 /* Main.storyboard */; };
+		D335FB4229E6FE5B00EC34A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D335FB4129E6FE5B00EC34A7 /* Assets.xcassets */; };
+		D335FB4529E6FE5B00EC34A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D335FB4329E6FE5B00EC34A7 /* LaunchScreen.storyboard */; };
+		D335FB5029E6FE5B00EC34A7 /* ZaloMessengerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335FB4F29E6FE5B00EC34A7 /* ZaloMessengerDemoTests.swift */; };
+		D335FB5A29E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335FB5929E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.swift */; };
+		D335FB5C29E6FE5B00EC34A7 /* ZaloMessengerDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335FB5B29E6FE5B00EC34A7 /* ZaloMessengerDemoUITestsLaunchTests.swift */; };
+		D335FB6929E7012B00EC34A7 /* ZaloChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335FB6829E7012B00EC34A7 /* ZaloChatScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D335FB4C29E6FE5B00EC34A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D335FB2D29E6FE5A00EC34A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D335FB3429E6FE5A00EC34A7;
+			remoteInfo = ZaloMessengerDemo;
+		};
+		D335FB5629E6FE5B00EC34A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D335FB2D29E6FE5A00EC34A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D335FB3429E6FE5A00EC34A7;
+			remoteInfo = ZaloMessengerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D335FB3529E6FE5A00EC34A7 /* ZaloMessengerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaloMessengerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D335FB3829E6FE5A00EC34A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D335FB3A29E6FE5A00EC34A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D335FB3C29E6FE5A00EC34A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D335FB3F29E6FE5A00EC34A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D335FB4129E6FE5B00EC34A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D335FB4429E6FE5B00EC34A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D335FB4629E6FE5B00EC34A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D335FB4B29E6FE5B00EC34A7 /* ZaloMessengerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaloMessengerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D335FB4F29E6FE5B00EC34A7 /* ZaloMessengerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloMessengerDemoTests.swift; sourceTree = "<group>"; };
+		D335FB5529E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaloMessengerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D335FB5929E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloMessengerDemoUITests.swift; sourceTree = "<group>"; };
+		D335FB5B29E6FE5B00EC34A7 /* ZaloMessengerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloMessengerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D335FB6829E7012B00EC34A7 /* ZaloChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloChatScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D335FB3229E6FE5A00EC34A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D335FB4829E6FE5B00EC34A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D335FB5229E6FE5B00EC34A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D335FB2C29E6FE5A00EC34A7 = {
+			isa = PBXGroup;
+			children = (
+				D335FB3729E6FE5A00EC34A7 /* ZaloMessengerDemo */,
+				D335FB4E29E6FE5B00EC34A7 /* ZaloMessengerDemoTests */,
+				D335FB5829E6FE5B00EC34A7 /* ZaloMessengerDemoUITests */,
+				D335FB3629E6FE5A00EC34A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D335FB3629E6FE5A00EC34A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D335FB3529E6FE5A00EC34A7 /* ZaloMessengerDemo.app */,
+				D335FB4B29E6FE5B00EC34A7 /* ZaloMessengerDemoTests.xctest */,
+				D335FB5529E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D335FB3729E6FE5A00EC34A7 /* ZaloMessengerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D335FB3829E6FE5A00EC34A7 /* AppDelegate.swift */,
+				D335FB3A29E6FE5A00EC34A7 /* SceneDelegate.swift */,
+				D335FB3C29E6FE5A00EC34A7 /* ViewController.swift */,
+				D335FB3E29E6FE5A00EC34A7 /* Main.storyboard */,
+				D335FB4129E6FE5B00EC34A7 /* Assets.xcassets */,
+				D335FB4329E6FE5B00EC34A7 /* LaunchScreen.storyboard */,
+				D335FB4629E6FE5B00EC34A7 /* Info.plist */,
+				D335FB6829E7012B00EC34A7 /* ZaloChatScreen.swift */,
+			);
+			path = ZaloMessengerDemo;
+			sourceTree = "<group>";
+		};
+		D335FB4E29E6FE5B00EC34A7 /* ZaloMessengerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D335FB4F29E6FE5B00EC34A7 /* ZaloMessengerDemoTests.swift */,
+			);
+			path = ZaloMessengerDemoTests;
+			sourceTree = "<group>";
+		};
+		D335FB5829E6FE5B00EC34A7 /* ZaloMessengerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D335FB5929E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.swift */,
+				D335FB5B29E6FE5B00EC34A7 /* ZaloMessengerDemoUITestsLaunchTests.swift */,
+			);
+			path = ZaloMessengerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D335FB3429E6FE5A00EC34A7 /* ZaloMessengerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D335FB5F29E6FE5B00EC34A7 /* Build configuration list for PBXNativeTarget "ZaloMessengerDemo" */;
+			buildPhases = (
+				D335FB3129E6FE5A00EC34A7 /* Sources */,
+				D335FB3229E6FE5A00EC34A7 /* Frameworks */,
+				D335FB3329E6FE5A00EC34A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaloMessengerDemo;
+			productName = ZaloMessengerDemo;
+			productReference = D335FB3529E6FE5A00EC34A7 /* ZaloMessengerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D335FB4A29E6FE5B00EC34A7 /* ZaloMessengerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D335FB6229E6FE5B00EC34A7 /* Build configuration list for PBXNativeTarget "ZaloMessengerDemoTests" */;
+			buildPhases = (
+				D335FB4729E6FE5B00EC34A7 /* Sources */,
+				D335FB4829E6FE5B00EC34A7 /* Frameworks */,
+				D335FB4929E6FE5B00EC34A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D335FB4D29E6FE5B00EC34A7 /* PBXTargetDependency */,
+			);
+			name = ZaloMessengerDemoTests;
+			productName = ZaloMessengerDemoTests;
+			productReference = D335FB4B29E6FE5B00EC34A7 /* ZaloMessengerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D335FB5429E6FE5B00EC34A7 /* ZaloMessengerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D335FB6529E6FE5B00EC34A7 /* Build configuration list for PBXNativeTarget "ZaloMessengerDemoUITests" */;
+			buildPhases = (
+				D335FB5129E6FE5B00EC34A7 /* Sources */,
+				D335FB5229E6FE5B00EC34A7 /* Frameworks */,
+				D335FB5329E6FE5B00EC34A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D335FB5729E6FE5B00EC34A7 /* PBXTargetDependency */,
+			);
+			name = ZaloMessengerDemoUITests;
+			productName = ZaloMessengerDemoUITests;
+			productReference = D335FB5529E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D335FB2D29E6FE5A00EC34A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D335FB3429E6FE5A00EC34A7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D335FB4A29E6FE5B00EC34A7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D335FB3429E6FE5A00EC34A7;
+					};
+					D335FB5429E6FE5B00EC34A7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D335FB3429E6FE5A00EC34A7;
+					};
+				};
+			};
+			buildConfigurationList = D335FB3029E6FE5A00EC34A7 /* Build configuration list for PBXProject "ZaloMessengerDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D335FB2C29E6FE5A00EC34A7;
+			productRefGroup = D335FB3629E6FE5A00EC34A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D335FB3429E6FE5A00EC34A7 /* ZaloMessengerDemo */,
+				D335FB4A29E6FE5B00EC34A7 /* ZaloMessengerDemoTests */,
+				D335FB5429E6FE5B00EC34A7 /* ZaloMessengerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D335FB3329E6FE5A00EC34A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D335FB4529E6FE5B00EC34A7 /* LaunchScreen.storyboard in Resources */,
+				D335FB4229E6FE5B00EC34A7 /* Assets.xcassets in Resources */,
+				D335FB4029E6FE5A00EC34A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D335FB4929E6FE5B00EC34A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D335FB5329E6FE5B00EC34A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D335FB3129E6FE5A00EC34A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D335FB3D29E6FE5A00EC34A7 /* ViewController.swift in Sources */,
+				D335FB6929E7012B00EC34A7 /* ZaloChatScreen.swift in Sources */,
+				D335FB3929E6FE5A00EC34A7 /* AppDelegate.swift in Sources */,
+				D335FB3B29E6FE5A00EC34A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D335FB4729E6FE5B00EC34A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D335FB5029E6FE5B00EC34A7 /* ZaloMessengerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D335FB5129E6FE5B00EC34A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D335FB5A29E6FE5B00EC34A7 /* ZaloMessengerDemoUITests.swift in Sources */,
+				D335FB5C29E6FE5B00EC34A7 /* ZaloMessengerDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D335FB4D29E6FE5B00EC34A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D335FB3429E6FE5A00EC34A7 /* ZaloMessengerDemo */;
+			targetProxy = D335FB4C29E6FE5B00EC34A7 /* PBXContainerItemProxy */;
+		};
+		D335FB5729E6FE5B00EC34A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D335FB3429E6FE5A00EC34A7 /* ZaloMessengerDemo */;
+			targetProxy = D335FB5629E6FE5B00EC34A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D335FB3E29E6FE5A00EC34A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D335FB3F29E6FE5A00EC34A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D335FB4329E6FE5B00EC34A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D335FB4429E6FE5B00EC34A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D335FB5D29E6FE5B00EC34A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D335FB5E29E6FE5B00EC34A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D335FB6029E6FE5B00EC34A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZaloMessengerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaloMessengerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D335FB6129E6FE5B00EC34A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZaloMessengerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaloMessengerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D335FB6329E6FE5B00EC34A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaloMessengerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaloMessengerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaloMessengerDemo";
+			};
+			name = Debug;
+		};
+		D335FB6429E6FE5B00EC34A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaloMessengerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaloMessengerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaloMessengerDemo";
+			};
+			name = Release;
+		};
+		D335FB6629E6FE5B00EC34A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaloMessengerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaloMessengerDemo;
+			};
+			name = Debug;
+		};
+		D335FB6729E6FE5B00EC34A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaloMessengerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaloMessengerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D335FB3029E6FE5A00EC34A7 /* Build configuration list for PBXProject "ZaloMessengerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D335FB5D29E6FE5B00EC34A7 /* Debug */,
+				D335FB5E29E6FE5B00EC34A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D335FB5F29E6FE5B00EC34A7 /* Build configuration list for PBXNativeTarget "ZaloMessengerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D335FB6029E6FE5B00EC34A7 /* Debug */,
+				D335FB6129E6FE5B00EC34A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D335FB6229E6FE5B00EC34A7 /* Build configuration list for PBXNativeTarget "ZaloMessengerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D335FB6329E6FE5B00EC34A7 /* Debug */,
+				D335FB6429E6FE5B00EC34A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D335FB6529E6FE5B00EC34A7 /* Build configuration list for PBXNativeTarget "ZaloMessengerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D335FB6629E6FE5B00EC34A7 /* Debug */,
+				D335FB6729E6FE5B00EC34A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D335FB2D29E6FE5A00EC34A7 /* Project object */;
+}

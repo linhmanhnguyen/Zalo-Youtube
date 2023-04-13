@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "485C78E5-5DAD-40DF-A3A1-AE13F37A30D0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE2C2A00-3452-4B8A-9350-4E7625A4CC8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZaloMessengerDemo/ZaloChatScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ZaloChatScreen"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FE2C2A00-3452-4B8A-9350-4E7625A4CC8F - 1038d27ca32bb26c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaloMessengerDemo.ZaloChatScreen.arrayName.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "ZaloMessengerDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloMessengerDemo/ZaloMessengerDemo/ZaloChatScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "FE2C2A00-3452-4B8A-9350-4E7625A4CC8F - 83dbbfc420fef1ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaloMessengerDemo.ZaloChatScreen.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ZaloMessengerDemo.ZaloChatScreen"
+                  moduleName = "ZaloMessengerDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloMessengerDemo/ZaloMessengerDemo/ZaloChatScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "FE2C2A00-3452-4B8A-9350-4E7625A4CC8F - f0c4f844863cccf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaloMessengerDemo.ZaloChatScreen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ZaloMessengerDemo.ZaloChatScreen&gt;"
+                  moduleName = "ZaloMessengerDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloMessengerDemo/ZaloMessengerDemo/ZaloChatScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "FE2C2A00-3452-4B8A-9350-4E7625A4CC8F - 83dbbfc420fef1ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaloMessengerDemo.ZaloChatScreen.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ZaloMessengerDemo.ZaloChatScreen"
+                  moduleName = "ZaloMessengerDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloMessengerDemo/ZaloMessengerDemo/ZaloChatScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "FE2C2A00-3452-4B8A-9350-4E7625A4CC8F - f0c4f844863cccf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZaloMessengerDemo.ZaloChatScreen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ZaloMessengerDemo.ZaloChatScreen&gt;"
+                  moduleName = "ZaloMessengerDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloMessengerDemo/ZaloMessengerDemo/ZaloChatScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1F26FC3-7580-44C8-94F2-40EF09EB8181"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZaloMessengerDemo/ZaloChatScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

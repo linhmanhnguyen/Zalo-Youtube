@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EA238D22-1470-40A9-B1AB-C95DD5B2F6D6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39FF8769-7B93-4FE0-A0CC-5EA2F1B03D71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YoutubeHome/HomeScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "39FF8769-7B93-4FE0-A0CC-5EA2F1B03D71 - 6f7033ddf4af1ddf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YoutubeHome.HomeScreen.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; YoutubeHome.HomeScreen"
+                  moduleName = "YoutubeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloandYoutube/YoutubeHome/YoutubeHome/HomeScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "39FF8769-7B93-4FE0-A0CC-5EA2F1B03D71 - fb65abf3bb815af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YoutubeHome.HomeScreen.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; YoutubeHome.HomeScreen"
+                  moduleName = "YoutubeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloandYoutube/YoutubeHome/YoutubeHome/HomeScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "39FF8769-7B93-4FE0-A0CC-5EA2F1B03D71 - c58cebef989b8e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YoutubeHome.HomeScreen.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;YoutubeHome.HomeScreen&gt;"
+                  moduleName = "YoutubeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloandYoutube/YoutubeHome/YoutubeHome/HomeScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "39FF8769-7B93-4FE0-A0CC-5EA2F1B03D71 - 2cb71838aa2b48d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YoutubeHome.HomeScreen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;YoutubeHome.HomeScreen&gt;"
+                  moduleName = "YoutubeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloandYoutube/YoutubeHome/YoutubeHome/HomeScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "39FF8769-7B93-4FE0-A0CC-5EA2F1B03D71 - 39f0f71d3263b97d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YoutubeHome.HomeScreen.__deallocating_deinit"
+                  moduleName = "YoutubeHome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanhlinh/Desktop/ZaloandYoutube/YoutubeHome/YoutubeHome/HomeScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
